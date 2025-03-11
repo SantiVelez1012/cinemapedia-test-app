@@ -30,6 +30,6 @@ class MoviedbDatasource implements MoviesDatasource {
             .map((movieDb) => MovieMapper.movieDbToEntity(movieDb))
             .toList();
 
-    return [];
+    return movies;
   }
 }
